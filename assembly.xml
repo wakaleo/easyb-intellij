@@ -4,7 +4,7 @@
   <formats>
     <format>zip</format>
   </formats>
-  <baseDirectory>easyb-X</baseDirectory>
+  <baseDirectory>easyb-11</baseDirectory>
   <dependencySets>
     <dependencySet>
       <outputDirectory>lib</outputDirectory>

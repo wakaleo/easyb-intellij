@@ -38,7 +38,6 @@ public class EasybRunConfigurationEditor extends SettingsEditor<EasybRunConfigur
                 super.getListCellRendererComponent(list, value, index, isSelected, cellHasFocus);
                 final Module module = (Module) value;
                 if (module != null) {
-                    setIcon(module.getModuleType().getNodeIcon(false));
                     setText(module.getName());
                 }
                 return this;

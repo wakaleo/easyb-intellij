@@ -21,17 +21,17 @@ public class EasybLiveTemplateLoader implements ApplicationComponent {
     }
 
     public void initComponent() {
-        TemplateSettings settings = TemplateSettings.getInstance();
-        try {
-            TemplateGroup templates = settings.readTemplateFile(openTemplatesAsDocument(), "easyb", true, true, this.getClass().getClassLoader());
-            if (templates != null) {
-                for (Template each : templates.getElements()) {
-                    settings.addTemplate(each);
-                }
-            }
-        } catch (InvalidDataException e) {
-            throw new RuntimeException(e);
-        }
+//        TemplateSettings settings = TemplateSettings.getInstance();
+//        try {
+//            TemplateGroup templates = settings.readTemplateFile(openTemplatesAsDocument(), "easyb", true, true, this.getClass().getClassLoader());
+//            if (templates != null) {
+//                for (Template each : templates.getElements()) {
+//                    settings.addTemplate(each);
+//                }
+//            }
+//        } catch (InvalidDataException e) {
+//            throw new RuntimeException(e);
+//        }
     }
 
     private Document openTemplatesAsDocument() {
